@@ -5,7 +5,10 @@
 //  Created by gaglgl on 2022/11/21.
 //  Copyright © 2022 gaglgl. All rights reserved.
 //
-#import <UIKit/UIColor.h>
+
+#import <UIKit/UIKit.h>
+
+NS_ASSUME_NONNULL_BEGIN
 
 @interface UIColor (RGUtil)
 /**
@@ -20,3 +23,5 @@
 + (UIColor *)colorFromHexString:(NSString *)hex withAlpha:(CGFloat)alpha;
 
 @end
+
+NS_ASSUME_NONNULL_END
